@@ -52,6 +52,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 /** Header Section */
@@ -60,7 +61,7 @@ header{
     margin: 35.02px 0 0 171.59px;
     width: 1103.41px;
     height: 29.46px;
-    z-index: 1;
+    z-index: 2;
 }
 
 nav{
@@ -87,12 +88,12 @@ ul li a{
 /** Main Sections */
 
 main{
-    position: absolute;
+    margin-top: -65px;  
 }
 
 /* Main Section-1 */
 
-section:nth-child(1){
+main section:nth-child(1){
     height: 1093px;
     display: flex;
     justify-content: center;
@@ -114,7 +115,7 @@ section:nth-child(1) div:first-child{
 section:nth-child(1) div:first-child h1{
     font-size: 120px;
     font-weight: bold;
-    margin-top: 155.52px;
+    margin-top: 220px;
     color: #ffffff;
     text-align: center; 
     letter-spacing: 5px;
@@ -170,9 +171,10 @@ section:nth-child(1) div:last-child div{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 87px;
     width: 1009px;
     height: 237px;
+    margin-top: 87px;
+    margin-bottom: 98px;
 }
 
 section:nth-child(1) div:last-child div .persons{
@@ -180,7 +182,7 @@ section:nth-child(1) div:last-child div .persons{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 150px;
+    width: 150px; 
     height: 237px;
 }
 
@@ -206,331 +208,6 @@ section:nth-child(1) div:last-child div .persons p{
     font-size: 16px;
     font-family: "Source-italic";
 }
-
-
-/* Main Section-2 */
-
-section:nth-child(2){
-    margin-top: 50px;
-    height: 392px;
-    background-color: #C271FF;
-    border: 1px solid #979797;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
-
-section:nth-child(2) div:first-child, section:nth-child(2) div:first-child img{
-    width: 160px;
-    height: 160px;
-}
-
-section:nth-child(2) div:first-child img{
-    border-radius: 80px;
-}
-
-section:nth-child(2) div:last-child{
-    margin-left: 53px;
-    width: 730px;
-    height: 158px;
-}
-
-section:nth-child(2) div:last-child blockquote, 
-section:nth-child(2) div:last-child h3,
-section:nth-child(2) div:last-child p{
-    font-size: 22px;
-    line-height: 33.6px;
-    text-align: left; 
-    border-spacing: 16px;
-    font-family: "Source-regular";
-    color: #ffffff;
-} 
-
-section:nth-child(2) div:last-child blockquote{
-    font-family: "Source-regular";
-} 
-
-section:nth-child(2) div:last-child h3{
-    font-family: "Source-bold";
-    margin-top: 22px;
-}
-
-section:nth-child(2) div:last-child p{
-    font-family: "Source-italic";
-}
-
-
-/* Main Section-3 */
-
-section:nth-child(3){
-    padding: 87px 105px 107px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-section:nth-child(3) h2{
-    font-size: 32px;
-    font-family: "Source-light";
-    color: #071629;
-}
-
-section:nth-child(3) h2 span{
-    font-family: "Source-bold";
-    color: #C271FF;
-}
-
-section:nth-child(3) div{
-    margin-top: 75px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-}
-
-section:nth-child(3) div:not(:last-child){
-   margin-right: 30px;
-}
-
-section:nth-child(3) div div{
-    width: 255px;
-    height: 335px;
-    display: flex;
-    flex-direction: column;
-}
-
-
-section:nth-child(3) div div img{
-    height: 154px;
-    width: 255px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    display: block;
-}
-
-section:nth-child(3) div div h3{
-    height: 154px;
-    margin-top: 18px;
-    font-family: "Source-bold";
-    font-size: 16px;
-    color: #071629;
-}
-
-section:nth-child(3) div div h3,
-section:nth-child(3) div div p,
-section:nth-child(3) div div div{
-    padding-left: 13px;
-}
-
-
-section:nth-child(3) div div p{
-    margin-top: 7.6px;
-    font-size: 14px;
-    font-family: "Source-regular";
-    border-spacing: 16px;
-    line-height: 24px;
-    color: #071629;
-    opacity: 50.16%;
-}
-
-section:nth-child(3) div div div{
-    margin-top: 13.4px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    height: 30px;
-}
-
-section:nth-child(3) div div div img{
-    height: 30px;
-    width: 30px;
-    border-radius: 15px;
-    margin-right: 13px;
-}
-
-section:nth-child(3) div div div h4{
-    height: 27px;
-    text-align: center;
-    margin-top: 5px;
-    color: #C271FF;
-}
-
-section:nth-child(3) div div div.stars{
-    width: 200px;
-    height: 15px;
-    color: #C271FF;
-}
-
-section:nth-child(3) div div div.stars .fa-star:not(:last-of-type){
-    margin-right: 8px;
-}
-
-section:nth-child(3) div div div.stars .fa-star:last-of-type{
-    color: #979797;
-}
-
-section:nth-child(3) div div p#time{
-    margin-top: -20px;
-    text-align: end;
-    font-family: "Source-bold";
-    line-height: 27px;
-    font-size: 14px;
-    opacity: 100%;
-    color: #C271FF;
-}
-
-img#play{
-    z-index: 10;
-    width: 64px;
-    height: 64px;
-    border-radius: 32px;
-    border: 1px solid #979797;
-    position: absolute;
-    align-self: center;
-    margin-top: 50px;
-}
-
-/** Main Section 4 */
-
-section:nth-child(4){
-    height: 502px;
-    padding: 70px 0 52px;
-    background-color: #071629;
-    border: 1px solid #979797;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-section:nth-child(4) h2{
-    color: #ffffff;
-    font-family: "Source-light";
-    margin-bottom: 58px;
-    font-size: 32px;
-}
-
-section:nth-child(4) h2 span{
-    font-weight: "Source-bold";
-    color: #C271FF;
-}
-
-section:nth-child(4) div{
-    display: flex;
-    justify-content: space-between;
-}
-
-section:nth-child(4) div div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    height: 153px;
-    width: 257px;
-}
-
-section:nth-child(4) div div:not(:last-child){
-    margin-right: 28.5px;
-}
-
-section:nth-child(4) div div img{
-    height: 35.35px;
-    width: 43.67px;
-}
-
-section:nth-child(4) div div h3{
-    font-size: 18px;
-    margin-top: 26.62px;
-    font-family: "Source-bold";
-    color: #ffffff;
-}
-
-section:nth-child(4) div div p{
-    font-size: 14px;
-    margin-top: 13px;
-    font-family: "Source-regular";
-    color: #ffffff;
-    width: 212px;
-    line-height: 26px;
-    text-align: center;
-}
-
-section:nth-child(4) button{
-    margin-top: 85px;
-    width: 162px;
-    height: 44px;
-    font-size: 14px;
-    text-align: center;
-    border-radius: 22px;
-    font-family: "Source-semi-bold";
-    background-color: #C271FF;
-    border: 1px solid #979797;
-    color: #ffffff;
-}
-
-/** Main Section 5 */
-
-section:nth-child(5){
-    padding: 67px 271px 84px 249px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-section:nth-child(5) h2{
-    margin-bottom: 74px;
-    font-size: 60px;
-    font-family: "Source-light";
-}
-
-section:nth-child(5) div#last-child{
-    margin-top: 74px;
-}
-
-section:nth-child(5) div div:first-child,
-section:nth-child(5) div div:last-child{
-    display: flex;
-}
-
-section:nth-child(5) div div:last-child div,
-section:nth-child(5) div div:first-child div{
-    display: flex;
-    flex-direction: column;
-}
-
-section:nth-child(5) div div:last-child div:not(:last-child),
-section:nth-child(5) div div:first-child div:not(:last-child){
-    margin-right: 220px;
-}
-
-section:nth-child(5) div div:last-child div div:first-child,
-section:nth-child(5) div div:first-child div div:first-child{
-    width: 100%;
-}
-
-section:nth-child(5) div div:last-child div div:first-child h3,
-section:nth-child(5) div div:first-child div div:first-child h3{
-    color: #071629;
-    font-family: "Source-bold";
-    border-spacing: 16px;
-    width: 100%;
-}
-
-section:nth-child(5) div div:last-child div div:last-child,
-section:nth-child(5) div div:first-child div div:last-child{
-    text-align: start;
-    font-size: 14px;
-    line-height: 24px;
-    font-family: "Source-regular";
-    border-spacing: 16px;
-    margin-top: 30px;
-    color: #071629;
-    opacity: 50.16%;
-}
-
 
 
 
