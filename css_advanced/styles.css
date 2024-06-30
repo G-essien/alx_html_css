@@ -88,7 +88,6 @@ main{
 
 section:nth-child(1){
     height: 1093px;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +95,6 @@ section:nth-child(1){
     background: url('./images/Object.png');
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
     background-position: center;
 }
 
@@ -202,5 +200,3 @@ section:nth-child(1) div:last-child div .persons p{
     font-size: 16px;
     font-family: "Source-italic";
 }
-
-
