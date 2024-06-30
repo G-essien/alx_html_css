@@ -475,6 +475,68 @@ section:nth-child(4) button{
 }
 
 
+/** Main Section 5 */
+
+section:nth-child(5){
+    padding: 67px 271px 84px 249px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section:nth-child(5) h2{
+    margin-bottom: 74px;
+    font-size: 60px;
+    font-family: "Source-light";
+}
+
+section:nth-child(5) div#last-child{
+    margin-top: 74px;
+}
+
+section:nth-child(5) div div:first-child,
+section:nth-child(5) div div:last-child{
+    display: flex;
+}
+
+section:nth-child(5) div div:last-child div,
+section:nth-child(5) div div:first-child div{
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-child(5) div div:last-child div:not(:last-child),
+section:nth-child(5) div div:first-child div:not(:last-child){
+    margin-right: 220px;
+}
+
+section:nth-child(5) div div:last-child div div:first-child,
+section:nth-child(5) div div:first-child div div:first-child{
+    width: 100%;
+}
+
+section:nth-child(5) div div:last-child div div:first-child h3,
+section:nth-child(5) div div:first-child div div:first-child h3{
+    color: #071629;
+    font-family: "Source-bold";
+    border-spacing: 16px;
+    width: 100%;
+}
+
+section:nth-child(5) div div:last-child div div:last-child,
+section:nth-child(5) div div:first-child div div:last-child{
+    text-align: start;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Source-regular";
+    border-spacing: 16px;
+    margin-top: 30px;
+    color: #071629;
+    opacity: 50.16%;
+}
+
+
 
 
 
