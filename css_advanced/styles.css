@@ -210,6 +210,56 @@ section:nth-child(1) div:last-child div .persons p{
 }
 
 
+/* Main Section-2 */
+
+section:nth-child(2){
+    /* margin-top: 50px; */
+    height: 392px;
+    background-color: #C271FF;
+    border: 1px solid #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+section:nth-child(2) div:first-child, section:nth-child(2) div:first-child img{
+    width: 160px;
+    height: 160px;
+}
+
+section:nth-child(2) div:first-child img{
+    border-radius: 80px;
+}
+
+section:nth-child(2) div:last-child{
+    margin-left: 53px;
+    width: 730px;
+    height: 158px;
+}
+
+section:nth-child(2) div:last-child blockquote, 
+section:nth-child(2) div:last-child h3,
+section:nth-child(2) div:last-child p{
+    font-size: 22px;
+    line-height: 33.6px;
+    text-align: left; 
+    border-spacing: 16px;
+    font-family: "Source-regular";
+    color: #ffffff;
+} 
+
+section:nth-child(2) div:last-child blockquote{
+    font-family: "Source-regular";
+} 
+
+section:nth-child(2) div:last-child h3{
+    font-family: "Source-bold";
+    margin-top: 22px;
+}
+
+section:nth-child(2) div:last-child p{
+    font-family: "Source-italic";
+}
 
 
 
