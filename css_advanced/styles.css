@@ -108,7 +108,7 @@ section:nth-child(1) div:first-child{
 section:nth-child(1) div:first-child h1{
     font-size: 120px;
     font-weight: bold;
-    margin: 155.52px 0 0 -0px;
+    margin-top: 155.52px;
     color: #ffffff;
     text-align: center; 
     letter-spacing: 5px;
