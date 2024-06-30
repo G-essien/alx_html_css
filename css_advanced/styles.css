@@ -396,5 +396,85 @@ img#play{
 }
 
 
+/** Main Section 4 */
+
+section:nth-child(4){
+    height: 502px;
+    padding: 70px 0 52px;
+    background-color: #071629;
+    border: 1px solid #979797;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(4) h2{
+    color: #ffffff;
+    font-family: "Source-light";
+    margin-bottom: 58px;
+    font-size: 32px;
+}
+
+section:nth-child(4) h2 span{
+    font-weight: "Source-bold";
+    color: #C271FF;
+}
+
+section:nth-child(4) div{
+    display: flex;
+    justify-content: space-between;
+}
+
+section:nth-child(4) div div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 153px;
+    width: 257px;
+}
+
+section:nth-child(4) div div:not(:last-child){
+    margin-right: 28.5px;
+}
+
+section:nth-child(4) div div img{
+    height: 35.35px;
+    width: 43.67px;
+}
+
+section:nth-child(4) div div h3{
+    font-size: 18px;
+    margin-top: 26.62px;
+    font-family: "Source-bold";
+    color: #ffffff;
+}
+
+section:nth-child(4) div div p{
+    font-size: 14px;
+    margin-top: 13px;
+    font-family: "Source-regular";
+    color: #ffffff;
+    width: 212px;
+    line-height: 26px;
+    text-align: center;
+}
+
+section:nth-child(4) button{
+    margin-top: 85px;
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 22px;
+    font-family: "Source-semi-bold";
+    background-color: #C271FF;
+    border: 1px solid #979797;
+    color: #ffffff;
+}
+
+
+
 
 
