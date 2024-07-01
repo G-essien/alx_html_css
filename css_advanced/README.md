@@ -3,8 +3,8 @@
 Welcome to Get Schooled, an educational platform designed to provide comprehensive resources and interactive learning experiences for students and educators!
 
 Below is the screenshot of my application.
+![Project screenshot](<images/Screenshot 2024-06-29 205710.png>)
 
-[My Application screenshot](<../../../Downloads/Screenshot 2024-06-29 205710.png>)
 
 ## Table of Contents
 
