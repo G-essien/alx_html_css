@@ -4,7 +4,7 @@ Welcome to Get Schooled, an educational platform designed to provide comprehensi
 
 Below is the screenshot of my application.
 
-[alt text](<../../../Downloads/Screenshot 2024-06-29 205710.png>)
+[My Application screenshot](<../../../Downloads/Screenshot 2024-06-29 205710.png>)
 
 ## Table of Contents
 
