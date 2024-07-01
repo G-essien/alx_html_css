@@ -1,6 +1,10 @@
 # Get Schooled
 
-Welcome to Get Schooled, an educational platform designed to provide comprehensive resources and interactive learning experiences for students and educators.
+Welcome to Get Schooled, an educational platform designed to provide comprehensive resources and interactive learning experiences for students and educators!
+
+Below is the screenshot of my application.
+
+[alt text](<../../../Downloads/Screenshot 2024-06-29 205710.png>)
 
 ## Table of Contents
 
