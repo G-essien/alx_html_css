@@ -15,7 +15,7 @@ Demo
 
 ## Images of the webpage
 
-![alt text](01_headphones_desktop@2x.png) ![alt text](01_headphones_mobile@2x.png) ![alt text](01_headphones_tablet@2x.png)
+https://www.figma.com/design/TAgqUGN5HQjfrUfC21Kbuv/Holberton-School---Headphone-company-(Copy)?node-id=0-1&t=6uuAkiz8CAYsEOvC-0
 
 ## Features
 - Hero Background Image: A stunning hero image featuring a lady enjoying music, creating an inviting atmosphere.
