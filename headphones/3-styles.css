@@ -1,0 +1,609 @@
+
+@font-face {
+    font-family: "Source-regular";
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/** Global classes */
+
+:root{
+    --secondary-color: #FF6565;
+    --primary-color: #FFFFFF;
+    --default-color: #071629;
+    --third-color: #979797;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 62.5rem;
+    margin: 0 auto;
+}
+
+body, main, header,
+.section{
+    width: 100%;
+}
+
+h1, h2, h3, input, .nav-items, p, a, .btn{
+    color: var(--primary-color);
+    font-family: "Source-regular";
+    text-align: center;
+    font-weight: 700;
+}
+
+.btn{
+    width: 10.125rem;
+    height: 2.75rem;
+    border-radius: 1.375rem;
+    border: 1px solid #979797;
+    cursor: pointer;
+    background-color: #FF6565;
+}
+
+.btn:hover{
+    opacity: .9;
+}
+
+.wrapper{
+    margin: 0 5%;
+}
+/** x Global classes x */
+
+/**  Header   */
+
+header{
+    height: 2rem;
+    margin-top: 1.735rem;
+    z-index: 2;
+}
+
+#logo{
+    width: 161px;
+    height: 32px;
+}
+
+.nav{
+    width: 62.558rem;
+    flex: 0 1 auto;
+    justify-content: space-between;
+}
+
+.menu{
+    display: none;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-list{
+    width: 255px;
+    height: 15px;
+    justify-content: space-between;
+}
+
+.nav-items a{
+    font-size: 12px;
+    line-height: 15.08px;
+}
+
+.nav-items a:hover,
+.nav-items a:hover,
+.nav-items a:active,
+.nav-items a:active{
+    color: var(--secondary-color);
+}
+
+
+/** x Header x */
+
+
+/**  Main   */
+
+main{
+    background: url(./images/headphones_hero_1.jpg) no-repeat center / cover;
+    margin-top: -70px;
+}
+
+main .container .wrapper{
+    width: 637px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 372px;
+}
+
+.hero-title{
+    height: 40px;
+    font-size: 32px;
+    line-height: 40.22px;
+    text-align: center;
+}
+
+.sub-title{
+    height: 20px;   
+    font-size: 16px;
+    line-height: 20.11px;
+    text-align: center;
+}
+
+.cta{
+    margin-top: 40px;
+    box-shadow: 0px 2px 20px 0px #00000080;
+}
+
+.text{
+    height: 104px;
+    margin-top: 65px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    text-wrap: wrap;
+    margin-bottom: 115px;
+}
+
+/** x Main x*/
+
+/* Sections */
+
+.section .container{
+    flex-direction: column;
+}
+
+section .container .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* x Sections x */
+
+/** part1_what_we_do */
+
+.part1_what_we_do{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 110px;
+    max-width: 637px;
+    padding: 0 10px;
+}
+
+h2{
+    width: 190px;
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    color: var(--default-color);
+}
+
+.part1_text{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: var(--default-color);
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/** x  part1_what_we_do  x */
+
+ /* parts2_icons */
+
+.part2_icons{
+    margin-top: 97px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 58px;
+}
+
+.ic{
+    flex-direction: column;
+}
+
+.ic img{
+    width: 61.43px;
+    height: 61.44px;
+}
+
+.ic h3{
+    margin: 25.25px 0 13px;
+    color: var(--default-color);
+}
+
+.p-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: var(--default-color);
+    margin-bottom: 110px;
+}
+
+/** x parts2_icons x */
+
+/**  parts_3_dark  */
+
+
+.part3_dark{
+    flex-direction: column;
+    background: url(./images/headphones_hero_2.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#lorem{
+    margin-top: 141px;
+    max-width: 448px;
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.part3_dark p{
+    margin-top: 40px;
+    color: var(--primary-color);
+    max-width: 637px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.dot{
+    margin: 56px 0 79px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 58px;
+}
+
+.part3_dark .dot .dot-img{
+    max-width: 190px;
+    max-height: 190px;
+}
+
+.dot-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/** x parts_3_dark x */
+
+/** x form  */
+
+.part4_contact_us .container .wrapper{
+    flex-direction: column;
+}
+
+form.flex{
+    margin: 110px 0 130px;
+    max-width: 335px;
+    /* border: 1px solid red; */
+    max-height: 373px;
+    flex-direction: column;
+}
+
+.form-title{
+    max-width: 146px;
+    max-height: 40px;
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+}
+
+label{
+    display: none;
+}
+
+.input{
+    width: 335px;
+    height: 29px;
+    text-align: start;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--default-color);
+    color: var(--default-color);
+}
+
+
+.input:active{
+    border: none;
+}
+
+#name{
+    margin-top: 56px;
+}
+
+form .btn{
+    margin-top: 56px;
+}
+
+
+/** x  form  x */
+
+
+
+
+
+/**  MEDIA QUERIES  */
+
+/** Tablet */
+
+@media only screen and (max-width: 768px) {
+
+    .nav{
+        width: 633px;
+        height: 32px;
+    }
+
+    main .container .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-basis: 39.813rem;
+        margin-top: 372px;  
+    }
+
+    .hero-title{
+        height: auto;
+        font-size: 2rem;
+        line-height: 40.22px;
+        text-align: center;
+        visibility: visible;    
+    }
+    
+    .sub-title{
+        font-size: 1rem;
+        line-height: 20.11px;
+        text-align: center;
+        height: auto;        
+    }
+
+    .cta{
+        width: 10.125rem;
+        margin-top: 2.5rem;
+        box-shadow: 0px 2px 20px 0px #00000080;
+    }
+
+    .text{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        margin-bottom: 115px;
+        height: auto;
+    }
+
+     /* parts2_icons */
+
+    .part2_icons{
+        margin-top: 97px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr 1fr;
+        gap: 58px;
+    }
+    
+    /* x parts2_icons x */
+    
+    /**  parts_3_dark */
+
+    .dot{
+        margin: 56px 0 79px;
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr 1fr;
+        gap: 58px;
+    }
+    
+    /** x parts_3_dark x */
+   
+}
+
+
+/** x Tablet x */
+
+/**  Mobiles  */
+
+@media only screen and (max-width: 480px){
+
+    body, header, main{
+        width: 100%;
+    }
+
+    .container{
+        max-width: 480px;
+    }
+
+    header{
+        z-index: 4;
+        width: 247px;
+        height: 32px;
+        margin: 29px 0 0 21px;       
+    }
+
+    .container{
+        max-width: 100%;
+    }
+
+    .nav{
+        width: 100%;
+        height: 32px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu{
+        display: block;
+        width: 20px;
+        height: 14px;
+        margin-top: 10px;
+    }
+
+    .hamburger{
+        width: 13px;
+        height: 2px;
+        position: absolute;
+        background-color: #FFFFFF;
+        border-radius: 1px;
+    }
+    
+    .hamburger::before,
+    .hamburger::after{
+        content: "";
+        width: 18px;
+        position: absolute;
+        height: 2px;
+        background-color: var(--primary-color);
+        border-radius: 1px;
+        border: 1px solid var(--third-color);    
+    }
+    
+    .hamburger::before{
+        transform: translateY(4px);
+    }
+    
+    .hamburger::after{
+        transform: translateY(-6px);
+    }
+    
+    .menu:active .hamburger::before{
+        transform: rotate(-45deg) translateY(0px);
+    }
+    
+    .menu:active .hamburger::after{
+        transform: rotate(45deg) translateY(0px);
+    }
+    
+    .menu:active .hamburger{
+        background-color: transparent;
+    }
+    
+    .nav-bar{
+        flex-direction: column;
+        margin-right: -30px;
+    }
+        
+    .nav-list{
+        flex-direction: column; 
+        display: none;
+    }
+
+    .menu:active + .nav-bar > .nav-list{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        align-items: center;
+        margin-top: 32px;
+        height: 150px;
+        font-size: 16px;
+    } 
+
+
+    /* Main */
+    
+    main .container .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 327px;
+    }
+
+    .hero-title{
+        height: auto;  
+        text-wrap: wrap;      
+    }
+
+    .sub-title{
+        height: auto;
+        font-size: 16px;
+        line-height: 20.11px;
+        text-align: center;
+        margin-top: 5px;
+        padding: 0 20px;
+        text-wrap: wrap;
+    }
+
+    .cta{
+        height: 44px;
+        margin-top: 20px;
+        box-shadow: 0px 2px 20px 0px #00000080;
+    }
+
+    .text{
+        height: auto;
+        margin-bottom: 115px;
+        margin-top: 65px;
+    }
+        
+    /* parts2_icons */
+
+    
+    .part2_icons{
+        margin-top: 97px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: 1fr 1fr 1fr 1fr;
+        gap: 58px;
+    }
+
+    /* x parts2_icons x */
+
+    /**  parts_3_dark */
+
+    .dot{
+        margin: 56px 0 79px;
+        grid-template-columns: 1fr;
+        grid-row: 1fr 1fr 1fr 1fr;
+        gap: 58px;
+    }
+    
+    /** x parts_3_dark x */
+
+    
+}
+
+/** x MEDIA QUERIES x */
+
+
+
+
+
+
+
